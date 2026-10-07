@@ -530,6 +530,19 @@ repositories:
   - name: images
     settings:
       has_wiki: true
+  - name: incubation
+    teams:
+      cncf-toc: maintain
+      cncf-projects: admin
+      tag-developer-experience-leads: write
+      tag-infrastructure-leads: write
+      tag-operational-resilience-leads: write
+      tag-security-compliance-leads: write
+      tag-workloads-foundation-leads: write
+    external_collaborators:
+      cncf-automation-bot: write
+    settings:
+      has_wiki: true
   - name: jp-translations
     settings:
       has_wiki: true
@@ -667,6 +680,18 @@ repositories:
   - external_collaborators:
       csantanapr: write
     name: presentations
+  - name: project-lifecycle
+    teams:
+      cncf-projects: admin
+      cncf-toc: read
+    external_collaborators:
+      angellk: admin
+      abebars: admin
+      jeremyrickard: admin
+      jrsapi: admin
+      mcderk: read
+      manishdixitlfx: read
+    visibility: private
   - name: project-template
     teams:
       cncf-toc: write
@@ -700,7 +725,6 @@ repositories:
       tag-workloads-foundation-leads: write
     external_collaborators:
       cncf-automation-bot: write
-      joshgav: write
     name: sandbox
     settings:
       has_wiki: true
@@ -976,12 +1000,13 @@ teams:
       - alolita
       - aparna-subramanian
       - chadbeaudin
-      - hblixt
+      - gnawux
       - jrsapi
       - kgamanji
       - KentaTada
       - ma-cvs
       - michael-bowen-sc
+      - ncode
       - ride808
       - rochaporto
     secret: false
@@ -1183,8 +1208,9 @@ teams:
       - aojea
       - GenPage
       - hzxuzhonghu
+      - joshgav
       - kashifest
-      - mesutoezdil
+      - moezdil
       - thschue
       - xing-yang
     secret: false
